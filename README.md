@@ -1,6 +1,6 @@
 # Customer-Segmentation
 
-The objective of this project was to build out a customer segmentation strategy to assist the e-commerce company with better understanding their customers. This initiative will assist the company with a wide range of strategic value to implement into various business lines including marketing, sales, planning, etc. 
+The objective of this project was to create a customer segmentation strategy to assist the e-commerce company (Ecom Co.) with better understanding their customers. This initiative will allow the company to unlock a wide range of cross-functional value to implement into various business lines including marketing, sales, planning, etc. With a more comprehensive understanding of Ecom's consumers, Ecom can now start to provide curated advertisements, products, promotions, sales, and feedback to consumers based on their grouping (segment).
 
 ## Overview: Customer Segmentation Process
 - ETL
