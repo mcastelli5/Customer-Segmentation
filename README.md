@@ -9,15 +9,17 @@ An unparalleled approach to this business objective is the use of the k-Means cl
   - Scope of data (~1 year)
   - Better understand values, duplicates, missing values, etc.
   - Answer simple questions i.e. repeat buyers? Countries with highest avg. UnitPrice
-2. Preprocessing Data for ML usage
-  - Cohort analysis (picking correct cohorts)
-  - Create retention table
+2. Cohort Analysis
+  - Cohort grouping selection (size, time, behavior)
+  - Retention table
+  - Spend analysis table
+3. Preprocessing Data for ML usage
   - Create RFM values
   - Adjust data to kMeans clustering assumptions (skewness and scaling)
-3. Perform the Clustering
+4. Perform the Clustering
   - Determine amount of clusters
   - Fit/Transform
-4. Insights & Analysis
+5. Insights & Analysis
   - Create and visualize snake chart
 
 ## Results
