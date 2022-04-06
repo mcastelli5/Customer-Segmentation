@@ -1,6 +1,8 @@
 # Customer-Segmentation
 
-The objective of this project was to create a customer segmentation strategy to assist the e-commerce company (Ecom Co.) with better understanding their customers. This initiative will allow the company to unlock a wide range of cross-functional value to implement into various business lines including marketing, sales, planning, etc. With a more comprehensive understanding of Ecom's consumers, Ecom can now start to provide targeted advertisements, products, promotions, sales, and feedback to groups of consumers based on their segment.
+Ecom Co. (fake e-commerce company) wanted to better understand their customers, and uncover any hidden patterns that their consumer transaction data had to offer. This initiative will allow the company to unlock a wide range of cross-functional value to implement into various business lines including marketing, sales, planning, etc.
+
+An unparalleled approach to this business objective is the use of the k-Means clustering algorithm to determine potential customer segments. Dependending on that data at hand, customers can be grouped by different aspects such as time, behavior, or size. With a more comprehensive understanding of Ecom's consumers, Ecom can now start to provide targeted advertisements, products, promotions, sales, and feedback to groups of consumers based on their segment.
 
 ## Process Overview
 1. Data Discovery (EDA)
@@ -8,6 +10,7 @@ The objective of this project was to create a customer segmentation strategy to 
   - Better understand values, duplicates, missing values, etc.
   - Answer simple questions i.e. repeat buyers? Countries with highest avg. UnitPrice
 2. Preprocessing Data for ML usage
+  - Cohort analysis (picking correct cohorts)
   - Create retention table
   - Create RFM values
   - Adjust data to kMeans clustering assumptions (skewness and scaling)
@@ -15,7 +18,7 @@ The objective of this project was to create a customer segmentation strategy to 
   - Determine amount of clusters
   - Fit/Transform
 4. Insights & Analysis
-  - Something smart
+  - Create and visualize snake chart
 
 ## Results
 The deliverable for Ecom Co. was a clear time-cohort segmentation of their customers over the past year based on their transaction history. This achieves Ecom's goal to better understand their customers, in addition to finding common purchasing trends across all customers. Depending on Ecom's priorities, this customer segmentation enables them to provide a tailored approach to each segment and attempt to gain value from this more strategic approach.
