@@ -1,6 +1,6 @@
 # Customer-Segmentation
 
-The objective of this project was to create a customer segmentation strategy to assist the e-commerce company (Ecom Co.) with better understanding their customers. This initiative will allow the company to unlock a wide range of cross-functional value to implement into various business lines including marketing, sales, planning, etc. With a more comprehensive understanding of Ecom's consumers, Ecom can now start to provide curated advertisements, products, promotions, sales, and feedback to consumers based on their grouping (segment).
+The objective of this project was to create a customer segmentation strategy to assist the e-commerce company (Ecom Co.) with better understanding their customers. This initiative will allow the company to unlock a wide range of cross-functional value to implement into various business lines including marketing, sales, planning, etc. With a more comprehensive understanding of Ecom's consumers, Ecom can now start to provide targeted advertisements, products, promotions, sales, and feedback to groups of consumers based on their segment.
 
 ## Process Overview
 1. Data Discovery (EDA)
@@ -18,7 +18,7 @@ The objective of this project was to create a customer segmentation strategy to 
   - Something smart
 
 ## Results
-The deliverable for Ecom Co. was a clear time cohort segmentation of their customers over the past year based on their transaction history.
+The deliverable for Ecom Co. was a clear time-cohort segmentation of their customers over the past year based on their transaction history. This achieves Ecom's goal to better understand their customers, in addition to finding common purchasing trends across all customers. Depending on Ecom's priorities, this customer segmentation enables them to provide a tailored approach to each segment and attempt to gain value from this more strategic approach.
 
 ## Lessons Learned
 - The importance of normalization and sclaing for features (especially kMeans clustering since it uses Euclidean distance in the algorithm)
@@ -30,6 +30,7 @@ The deliverable for Ecom Co. was a clear time cohort segmentation of their custo
 - Matplotlib
 - Seaborn
 - Datetime
-- KMeans
-- StandardScaler
-- Scipy.Stats
+- KMeans (sklearn.cluster)
+- StandardScaler (sklearn.preprocessing)
+- PowerTransformer (sklearn.preprocessing)
+- Make_pipeline (sklearn.pipeline)
