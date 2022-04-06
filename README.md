@@ -4,7 +4,9 @@ The objective of this project was to create a customer segmentation strategy to 
 
 ## Process Overview
 1. Data Discovery (EDA)
+  - Scope of data (~1 year)
   - Better understand values, duplicates, missing values, etc.
+  - Answer simple questions i.e. repeat buyers? Countries with highest avg. UnitPrice
 2. Preprocessing Data for ML usage
   - Create retention table
   - Create RFM values
@@ -14,6 +16,9 @@ The objective of this project was to create a customer segmentation strategy to 
   - Fit/Transform
 4. Insights & Analysis
   - Something smart
+
+## Results
+The deliverable for Ecom Co. was a clear time cohort segmentation of their customers over the past year based on their transaction history.
 
 ## Lessons Learned
 - The importance of normalization and sclaing for features (especially kMeans clustering since it uses Euclidean distance in the algorithm)
