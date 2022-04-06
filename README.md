@@ -15,6 +15,7 @@ The objective of this project was to create a customer segmentation strategy to 
 - Inisghts & Analysis
 
 ## Lessons Learned
+- 
 
 ## Libraries Used
 - Pandas
