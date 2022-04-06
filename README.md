@@ -2,7 +2,7 @@
 
 Ecom Co. (fake e-commerce company) wanted to better understand their customers, and uncover any hidden patterns that their consumer transaction data had to offer. This initiative will allow the company to unlock a wide range of cross-functional value to implement into various business lines including marketing, sales, planning, etc.
 
-An unparalleled approach to this business objective is the use of the k-Means clustering algorithm to determine potential customer segments, in addition to cohort analysis which can answer retention and churn questions. Dependending on that data at hand, customers can be grouped by different aspects such as time, behavior, or size. These groupings can assist in deriving general patterns that consumers align to based on their past actions. With a more comprehensive understanding of Ecom's consumers, Ecom can now start to provide targeted advertisements, products, promotions, sales, and feedback to groups of consumers based on their segment.
+An unparalleled approach to this business objective is the use of the k-Means clustering algorithm to determine potential customer segments, in addition to cohort analysis which can help answer retention and churn questions. Dependending on that data at hand, customers can be grouped by different aspects such as time, behavior, or size. These groupings can assist in deriving general patterns that consumers align to based on their past actions. With a more comprehensive understanding of Ecom's consumers, Ecom can now start to provide targeted advertisements, products, promotions, sales, and feedback to groups of consumers based on their segment.
 
 ## Process Overview
 1. Data Discovery (EDA)
