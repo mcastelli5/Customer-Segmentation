@@ -15,7 +15,8 @@ The objective of this project was to create a customer segmentation strategy to 
 - Inisghts & Analysis
 
 ## Lessons Learned
-- 
+- The importance of normalization and sclaing for features (especially kMeans clustering since it uses Euclidean distance in the algorithm)
+- Business Sense: when and where the "proof-of-concept" can differentiate from vacuum examples (real world usage)
 
 ## Libraries Used
 - Pandas
