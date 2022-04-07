@@ -25,6 +25,10 @@ An unparalleled approach to this business objective is the use of the k-Means cl
 ## Results
 The deliverable for Ecom Co. was a clear time-cohort segmentation of their customers over the past year based on their transaction history. This achieves Ecom's goal to better understand their customers, in addition to finding common purchasing trends across all customers. Depending on Ecom's priorities, this customer segmentation enables them to provide a tailored approach to each segment and attempt to gain value from this more strategic approach.
 
+## Challenges
+- Finding complex duplicates
+- Normalizing and Scaling features for kMeans modelling
+
 ## Lessons Learned
 - The importance of normalization and sclaing for features (especially kMeans clustering since it uses Euclidean distance in the algorithm)
 - Business Sense: when and where the "proof-of-concept" can differentiate from vacuum examples (real world usage)
